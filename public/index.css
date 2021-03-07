@@ -1,0 +1,4 @@
+body div.buttons {
+    display: flex;
+    padding: 2em;
+}
