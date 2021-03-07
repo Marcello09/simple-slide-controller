@@ -1,4 +1,19 @@
-body div.buttons {
+.fullscreen {
     display: flex;
-    padding: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #42ddd0;
+    border-radius: 100%;
+    display: block;
+    width: 10em;
+    height: 10em;
+
+}
+
+.button span {
+    font-size: 10em;
 }

@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Slide Controller</title>
-        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="index.css">
+      <title>Slide Controller</title>
+      <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+      <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="buttons">
-            <div>
-                <button onclick="previous()" class="mdc-button mdc-button--raised foo-button">
-                <div class="mdc-button__ripple"></div>
-                <span class="mdc-button__label">Anterior</span>
-              </button>
-    
-            </div>
-            <div>
-                <button onclick="next()" class="mdc-button mdc-button--raised foo-button">
-                <div class="mdc-button__ripple"></div>
-                <span class="mdc-button__label">Proximo</span>
-              </button>
-            </div>
+      <div class="fullscreen">
+        <div class="button mdc-elevation--z4" onclick="previous()">
+          <span class="material-icons">
+            chevron_left
+          </span>
         </div>
-        <script src="index.js"></script>
+        <div class="button mdc-elevation--z4" onclick="next()">
+          <span class="material-icons">
+            chevron_right
+          </span>
+        </div>
+      </div>
+      <script src="index.js"></script>
     </body>
 </html>
